@@ -1,0 +1,102 @@
+.row{
+  padding:0px
+}
+
+.card-wrapper {
+    margin: 5% 0;
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 8vw; /* note i used vw not px for better responsive */
+  height: 9vw;
+}
+
+.navbar-brand{
+  font-size:xx-large;
+  font-family:cursive;
+}
+
+.border-0{
+  display:inline-grid;
+  
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+  font-weight:300;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h5{
+  font-size: small;
+  text-align: justify;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 15px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 20px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7b2602;
+  color: white;
+}
+
+
+@media screen and (max-width:600px){
+  .custom-circle-image{
+    position:relative;
+  }
+  .card-wrapper {
+    max-width: 20%;
+    padding: 2px;
+    flex: 40%;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .custom-circle-image{
+    display:flex;
+  }
+  .card-wrapper {
+    max-width: 20%;
+    flex: 40%;
+    padding: 2px;
+  }
+}
