@@ -13,7 +13,7 @@ Following steps are performed for classification:
 4. Training Model for Classification: SVM, Logistic Regression and Random Forest are used for classification. GridSearchCV is used for hyperparameter tuning.
 
 ## Technologies used in this project,
-1. Python 3.8
+1. Python 3.9
 2. Numpy and OpenCV for data cleaning
 3. Matplotlib & Seaborn for data visualization
 4. Sklearn for model building
